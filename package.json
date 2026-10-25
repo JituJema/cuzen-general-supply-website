@@ -1,0 +1,1 @@
+﻿{"name":"cuzen-general-supply-website","version":"1.0.0","private":true,"type":"module","scripts":{"build":"node build.mjs","images":"node scripts/images.mjs","dev":"node scripts/dev-server.mjs"},"devDependencies":{"@fontsource-variable/bricolage-grotesque":"^5.3.0","@fontsource-variable/figtree":"^5.3.0","sharp":"^0.35.5"}}
