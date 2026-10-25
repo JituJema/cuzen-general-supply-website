@@ -1,4 +1,4 @@
-# Cuzen General Supply Company Limited: website
+﻿# Cuzen General Supply Company Limited: website
 
 Multi-page, static website for Cuzen General Supply (Dar es Salaam, Tanzania). Plain HTML, CSS and JavaScript. No framework and no runtime dependencies.
 
@@ -15,10 +15,10 @@ npm run dev                 # http://localhost:3000
 
 * Page content: `src/pages/*.html` (each file starts with a `<!--meta {...}-->` title and description).
 * Shared header, footer, icons, quote drawer: `src/layout.html`.
-* After editing either, run `npm run build`. It writes the finished `.html` files to the project root. **Commit those generated files**, because Vercel serves the root folder as is.
+* After editing either, run `npm run build:pages`. It writes the finished `.html` files to the project root. **Commit those generated files**, because Vercel serves the root folder as is.
 * Styles: `assets/css/main.css`. Behaviour: `assets/js/main.js`.
 * Photos: put originals in `scripts/raw/`, list them in `scripts/images.mjs`, run `npm run images` to create optimised WebP files in `assets/img/`.
-* Products on the products page use one line each, for example `{{item cement|Cement (premium brands)|Construction}}`. Add or remove lines, then run `npm run build`.
+* Products on the products page use one line each, for example `{{item cement|Cement (premium brands)|Construction}}`. Add or remove lines, then run `npm run build:pages`.
 
 ## Deploy on Vercel
 
@@ -30,3 +30,4 @@ npm run dev                 # http://localhost:3000
 ## Contact details used on the site
 
 Edit them in `src/layout.html`, `src/pages/contact.html` and `assets/js/main.js` (WhatsApp number and email constants at the top).
+

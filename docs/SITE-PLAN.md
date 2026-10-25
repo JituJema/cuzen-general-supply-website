@@ -1,4 +1,4 @@
-# Cuzen General Supply website: structure and plan
+﻿# Cuzen General Supply website: structure and plan
 
 ## Who the site is for
 
@@ -95,3 +95,4 @@ Contact cards (call, other lines, WhatsApp, email, address with map link, copy b
 2. Projects or gallery page with real site photos.
 3. Admin to edit products and prices (the GitHub Contents API pattern used on other projects).
 4. Google Business Profile, analytics and a sitemap once the domain is known.
+
