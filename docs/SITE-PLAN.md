@@ -1,4 +1,4 @@
-﻿# Cuzen General Supply website: structure and plan
+# Cuzen General Supply website: structure and plan
 
 ## Who the site is for
 

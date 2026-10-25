@@ -1,4 +1,4 @@
-﻿# Cuzen General Supply Company Limited: website
+# Cuzen General Supply Company Limited: website
 
 Multi-page, static website for Cuzen General Supply (Dar es Salaam, Tanzania). Plain HTML, CSS and JavaScript. No framework and no runtime dependencies.
 

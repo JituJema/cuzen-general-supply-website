@@ -1,4 +1,4 @@
-﻿// Optimises the raw photos in scripts/raw into small WebP files in assets/img.
+// Optimises the raw photos in scripts/raw into small WebP files in assets/img.
 // Run with: npm run images
 import sharp from 'sharp';
 import { mkdirSync } from 'node:fs';
